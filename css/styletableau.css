@@ -1,0 +1,42 @@
+table.tablevehicules{
+    border-collapse: collapse;
+    min-width: 800px;
+    width: auto;
+    cursor: pointer;
+    margin: 100px auto;
+    margin-top: 75px;
+    border: 5px solid #0a0082;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+}
+
+/* haut du tableau */
+thead tr{
+    background-color: #03ceaf;
+    color: whitesmoke;
+    text-align: center;
+}
+
+th{
+    height: 30px;
+    font-size: 20px;
+}
+
+/* suite du tableau */
+td{
+    color:black;
+    font-size: 17px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    text-align: center;
+}
+td a{
+    display: block;
+    block-size: 100%;
+    text-decoration: none;
+    color: black;
+}
+/* bordures inter-lignes */
+
+tr ,td , th{
+    border: 1px solid grey;
+}

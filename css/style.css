@@ -61,10 +61,20 @@ nav.menu-nav ul li a{
     border-radius: 6px;
 }
 
+/* barre de séparion haut de page et corps principal */
+
+div.ligne{
+    height: 10px;
+    background-color: #03ad94;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+}
+
 /* bloc acces liste bus */
 div.bus{
     height: 200px;
-    padding: 30px;
+    padding: 60px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 header.dansbus{
@@ -86,6 +96,7 @@ div.prezbus{
     display: flex;
     background-color: blanchedalmond;
     border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
 }
 
 div.imgbus{
@@ -113,7 +124,8 @@ div.textbus a{
 /* bloc acces liste des centres bus */
 div.centre{
     height: 200px;
-    padding: 30px;
+    padding: 60px;
+    padding-top: 30px;
 }
 
 header.danscentre{
@@ -134,6 +146,7 @@ div.prezcentre{
     display: flex;
     background-color: blanchedalmond;
     border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
 }
 
 div.imgcentre{
@@ -157,10 +170,34 @@ div.textcentre a{
     color: black;
 }
 
+/* tableau de présentation des bus */
+
+div.bustechnique{
+    padding: 35px;
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 500px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+div.nombus{
+    height: 40px;
+    background-color: #0a0082;
+    font-size: 30px;
+    border-radius: 15px 15px 0 0;
+}
+
+div.infosbus{
+    height: 460px;
+    background-color: whitesmoke;
+    box-shadow: 0 15px 5px rgba(0, 0, 0, 0.15);
+}
 
 
 /* bas de page */
 
 div.baspage{
-    height: 60px;
+    height: 10px;
+    background-color: #03ad94;
 }
