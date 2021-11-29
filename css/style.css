@@ -58,19 +58,109 @@ nav.menu-nav ul li a{
     text-decoration: none;
     padding: 10px;
     height: 20px;
+    border-radius: 6px;
+}
+
+/* bloc acces liste bus */
+div.bus{
+    height: 200px;
+    padding: 30px;
+}
+
+header.dansbus{
+    height: 36px;
+    background-color: #0a0082;
+    text-align: center;
+    text-justify: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+header.dansbus p{
+    color: blanchedalmond;
+    text-decoration: whitesmoke;
+    font-size: 30px;
+}
+
+div.prezbus{
+    display: inline-block;
+    display: flex;
+    background-color: blanchedalmond;
+    border-radius: 0 0 10px 10px;
+}
+
+div.imgbus{
+    height: 164px;
+    width: 292px;
+    background-image: url(https://media.lesechos.com/api/v1/images/view/5c2de5338fe56f64c00a36ed/1280x720-webp/0203523070942-web.webp);
+    background-size: 100%;
+    border-radius: 0 0 0 10px;
+}
+
+div.textbus{
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-justify: auto;
+    font-size: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+div.textbus a{
+    text-decoration: none;
+    color: black;
+}
+
+/* bloc acces liste des centres bus */
+div.centre{
+    height: 200px;
+    padding: 30px;
+}
+
+header.danscentre{
+    height: 36px;
+    background-color: #0a0082;
+    text-align: center;
+    text-justify: auto;
+}
+
+header.danscentre p{
+    color: blanchedalmond;
+    text-decoration: whitesmoke;
+    font-size: 30px;
+}
+
+div.prezcentre{
+    display: inline-block;
+    display: flex;
+    background-color: blanchedalmond;
+    border-radius: 0 0 10px 10px;
+}
+
+div.imgcentre{
+    height: 164px;
+    width: 292px;
+    background-image: url(https://www.nr-conseil.net/wp-content/uploads/2020/09/Cb-Asnieres-2.jpg);
+    background-size: 120%;
+    border-radius: 0 0 0 10px;
+}
+
+div.textcentre{
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-justify: auto;
+    font-size: 25px;
+}
+
+div.textcentre a{
+    text-decoration: none;
+    color: black;
 }
 
 
 
+/* bas de page */
 
-
-h1.montitre {
-    font-size: 50px;
-    font-weight: 500;
-    padding-left: 45%;
-}
-
-div.ligne{
-    height: 7px;
-    background-color: #03ad94;
+div.baspage{
+    height: 60px;
 }
