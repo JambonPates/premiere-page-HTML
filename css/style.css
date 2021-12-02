@@ -1,6 +1,7 @@
-p.welcome{
-    color: rgb(0, 0, 0);
+*{
+    scroll-behavior: smooth;
 }
+/* définition du fond de la page */
 body{
     background-color: #999999;
     background-size: 100%;
@@ -20,7 +21,11 @@ div.ban img{
     width: 150px;
     background-size: cover;
     background-size: 100%;
+    width: 150px;
+    padding-top: 0px;
+    padding-right: 50px;
 }
+
 header.principal nav{
     display: flex;
     justify-content: space-between;
@@ -33,12 +38,6 @@ div.ban header{
     display: flex;
     align-items: center;
     background-color: #03ad94;
-}
-
-div.ban img{
-    width: 150px;
-    padding-top: 0px;
-    padding-right: 50px;
 }
 
 nav.menu-nav ul li{
@@ -173,15 +172,18 @@ div.textcentre a{
 /* tableau de présentation des bus */
 
 div.bustechnique{
-    padding: 35px;
+    padding: 40px;
     padding-right: 100px;
     padding-left: 100px;
-    height: 500px;
+    height: 400px;
+    width: 1148px;
     color: blanchedalmond;
     text-align: center;
+    display: flex;
+    display: inline-block;
 }
 
-div.nombus{
+header.nombus{
     height: 40px;
     background-color: #0a0082;
     font-size: 30px;
@@ -190,14 +192,66 @@ div.nombus{
 
 div.infosbus{
     height: 460px;
-    background-color: whitesmoke;
+    background-size: 100%;
     box-shadow: 0 15px 5px rgba(0, 0, 0, 0.15);
+    color: black;
+}
+div.infobus h1{
+    color: black;
+    font-size: 20px;
 }
 
+table.vehicule{
+    border-collapse: collapse;
+    width: 1148px;
+    border: 5px solid black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+}
 
+/* haut du tableau */
+thead tr{
+    background-color: #03ceaf;
+    color: whitesmoke;
+    text-align: center;
+}
+
+th{
+    height: 30px;
+    font-size: 20px;
+}
+
+/* suite du tableau */
+td{
+    color:black;
+    font-size: 17px;
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+    text-align: center;
+}
+
+/* bordures inter-lignes */
+
+tr ,td , th{
+    border: 1px solid grey;
+}
+
+/* présentation photo */
+
+div.photobus{
+    padding: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 1148px;
+    display: flex;
+    color: blanchedalmond;
+    text-align: center;
+    text-align: center;
+    display: inline-block;
+}
 /* bas de page */
 
 div.baspage{
+    margin-top: 25px;
     height: 10px;
     background-color: #03ad94;
 }
