@@ -17,7 +17,7 @@ div.ban{
     background-position-y: 500px;
 }
 
-div.ban img{
+img{
     width: 150px;
     background-size: cover;
     background-size: 100%;
@@ -34,7 +34,7 @@ header.principal nav{
     background-size: 100%;
 }
 
-div.ban header{
+header{
     display: flex;
     align-items: center;
     background-color: #03ad94;
@@ -94,6 +94,7 @@ div.prezbus{
     display: inline-block;
     display: flex;
     background-color: blanchedalmond;
+    text-align: center;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
 }
@@ -188,6 +189,11 @@ header.nombus{
     background-color: #0a0082;
     font-size: 30px;
     border-radius: 15px 15px 0 0;
+    display: flex;
+}
+
+header.nombus p{
+    text-align: center;
 }
 
 div.infosbus{

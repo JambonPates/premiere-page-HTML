@@ -1,4 +1,4 @@
-div.ban{
+div.banAgora{
     position: relative;
     height: 450px;
     margin: 0px;
@@ -7,11 +7,22 @@ div.ban{
     background-position-y: 600px;
 }
 
+
+div.ban317{
+    position: relative;
+    height: 450px;
+    margin: 0px;
+    background: url(https://p8.storage.canalblog.com/87/20/1127997/88317847_o.jpg);
+    background-size: 100%;
+    background-position-y: 650px;
+}
+
 div.ban img{
     width: 150px;
     background-size: cover;
     background-size: 100%;
 }
+
 
 /* agora line :https://4.bp.blogspot.com/-YCke5prAENw/W1o8sAafEJI/AAAAAAABtQg/BgYUOJiBO1QDyMerP-wVcD1LP2JW3RM0gCLcBGAs/s1600/IMG_8042.jpg */
 /* agora s arriere https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Renault_Agora_7217_RATP%2C_ligne_141%2C_Nanterre.jpg/1280px-Renault_Agora_7217_RATP%2C_ligne_141%2C_Nanterre.jpg */
