@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css\style.css">
     <!-- <script src="java script\script.js"></script> -->
+    <script defer src="./javascript/boutons.js"></script>
 </head>
 <body id="page">
     <div class="ban">
@@ -41,7 +42,9 @@
     <!-- <button type="button" id="bouton"> 
         Mode sombre
     </button> -->
-    <div class="bus">
+    <div id="bouton1" class="bus"
+    onmouseenter="mouse_on_button(document.querySelector('#bouton1'))"
+    onmouseleave="mouse_leave_button(document.querySelector('#bouton1'))">
         <header class="dansbus">
             <p>
                 Liste des véhicules
@@ -63,7 +66,9 @@
     </div>
 
     
-    <div class="centre">
+    <div id=bouton2 class="centre"
+    onmouseenter="mouse_on_button(document.querySelector('#bouton2'))"
+    onmouseleave="mouse_leave_button(document.querySelector('#bouton2'))">
         <header class="dansbus">
             <p>
                 Liste des centres-bus
