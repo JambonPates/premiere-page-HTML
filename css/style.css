@@ -68,6 +68,22 @@ div.ligne{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
 }
 
+/* zone pour le vote du public */
+div.vote{
+    background-color: whitesmoke;
+    padding-left: 75px;
+    padding-right: 75px;
+    height: 100px;
+    border-radius: 10px 10px 0 0;
+}
+div.vote header{
+    height: 36px;
+    background-color: #0a0082;
+    text-align: center;
+    text-justify: auto;
+    border-radius: 10px 10px 0 0;
+}
+
 /* bloc acces liste bus */
 div.bus{
     height: 200px;
