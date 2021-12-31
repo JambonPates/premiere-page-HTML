@@ -86,7 +86,10 @@ div.vote header{
 }
 
 div.vote form{
-    padding: 10px;
+    padding-left: 100px;
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
 }
 
 /* bloc acces liste bus */
