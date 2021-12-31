@@ -95,7 +95,7 @@
         </div>  
     </div>
 
-    <div class="vote">
+    <div class="vote" id='test'>
         <header class="dansbus">
             <p>
                 Aimez vous cette page internet?
@@ -104,18 +104,26 @@
                 
         <FORM id="zonevote">
             Oui ou Non ?
-            <INPUT TYPE="int" id="inputvote" id="input"> 
-            <INPUT TYPE="submit" id="bouton" VALUE="Afficher"><BR>
+            <INPUT TYPE="int" id="inputvote"> <BR>
+            <input type="button" id="bouton" onclick="mafonction()">Valider</p><BR>    
+            <p id="outputvote" ></p>    
         </FORM>
+        
+        
         <script>
             function mafonction (){
-                var input = document.querySelector('#input').value;
-                var taille = input.to.string() + "px";
-                document.querySelector('div').style.height = taille;
+                var input = document.querySelector('#inputvote').value;
+                if (input == 'oui') {
+                    document.body.style.backgroundColor = 'rgb(0, 255, 0)'
+                } else if (input == 'non') {
+                document.body.style.backgroundColor = 'rgb(255, 0, 0)'
+                }
             }
-            document.querySelector('#bouton').addEventListener("onclick", mafonction);
         </script>
     </div>
 
     <div class="baspage"> 
     </div>
+
+
+    <!-- lien vers databus : http://busparisiens.fr/DataBus/tel/DB_ligne.php -->
