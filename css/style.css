@@ -66,6 +66,7 @@ div.ligne{
     height: 10px;
     background-color: #03ad94;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+    margin-bottom: 40px;
 }
 
 /* zone pour le vote du public */
@@ -86,9 +87,17 @@ div.vote header{
 }
 
 div.vote form{
-    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-left: 400px;
     font-size: 30px;
-    display: inline-block;
+    text-align: center;
+}
+
+div.vote p{
+    color: black;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -127,6 +136,23 @@ div.imgbus{
     height: 164px;
     width: 292px;
     background-image: url(https://media.lesechos.com/api/v1/images/view/5c2de5338fe56f64c00a36ed/1280x720-webp/0203523070942-web.webp);
+    background-size: 100%;
+    border-radius: 0 0 0 10px;
+}
+
+div.prezbusauv{
+    display: inline-block;
+    display: flex;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+}
+
+div.imgbusauv{
+    height: 164px;
+    width: 292px;
+    /* background-image: url(https://media.lesechos.com/api/v1/images/view/5c2de5338fe56f64c00a36ed/1280x720-webp/0203523070942-web.webp); */
     background-size: 100%;
     border-radius: 0 0 0 10px;
 }
@@ -210,6 +236,7 @@ div.bustechnique{
 
 header.nombus{
     height: 40px;
+    text-align: center;
     background-color: #0a0082;
     font-size: 30px;
     border-radius: 15px 15px 0 0;
@@ -263,6 +290,32 @@ td{
 
 tr ,td , th{
     border: 1px solid grey;
+}
+
+/* Histoire des différents modèles */
+
+div.petitehistoire{
+    padding: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 1148px;
+    display: flex;
+    color: blanchedalmond;
+    text-align: center;
+    text-align: center;
+    display: inline-block;
+}
+
+div.storibus{
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-justify: auto;
+    font-size: 25px;
+    border-radius: 0 0 10px 10px;
+    height: 400px;
+    color: black;
+    background-color: blanchedalmond;
 }
 
 /* présentation photo */

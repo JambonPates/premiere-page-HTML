@@ -27,8 +27,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://color.bougeret.fr/index4.php">
-                            quiz
+                        <a href="http://busparisiens.fr/DataBus/tel/DB_ligne.php">
+                            Parc véhicules
                         </a>
                     </li>
                 </ul>
@@ -95,28 +95,65 @@
         </div>  
     </div>
 
+    <div id="bouton3" class="bus"
+    onmouseenter="mouse_on_button(document.querySelector('#bouton3'))"
+    onmouseleave="mouse_leave_button(document.querySelector('#bouton3'))">
+        <header class="dansbus">
+            <p>
+                véhicules sauvegardés
+            </p>
+        </header>
+        <div class="prezbus">
+            <a href="listevéhicules.html">
+            <div class="imgbusauv">
+            </div>
+                
+            <div class="textbus">
+                <p>
+                    Retrouvez ici la liste de tous les véhicules sauvegardés par la RATP ou des associations.
+                </p>
+            </a>
+            </div>
+            
+        </div>  
+    </div>
+
     <div class="vote" id='test'>
         <header class="dansbus">
             <p>
                 Aimez vous cette page internet?
             </p>
         </header>
+
+        <p class="levote"> 
+            <FORM id="zonevote">
+                Oui ou Non ?
+                <INPUT TYPE="int" id="inputvote"> <br>
+                <input type="button" id="bouton" value="Valider" onclick="mafonction()"><br>   
                 
-        <FORM id="zonevote">
-            Oui ou Non ?
-            <INPUT TYPE="int" id="inputvote"> <BR>
-            <input type="button" id="bouton" onclick="mafonction()">Valider</p><BR>    
-            <p id="outputvote" ></p>    
-        </FORM>
-        
-        
+            </FORM>
+            <p id="outputvote" ></p>
+        </p>
+           
         <script>
             function mafonction (){
                 var input = document.querySelector('#inputvote').value;
                 if (input == 'oui') {
-                    document.body.style.backgroundColor = 'rgb(0, 255, 0)'
+                    document.body.style.backgroundColor = 'rgb(0, 150, 0)';
+                    var output = document.querySelector('#outputvote').textContent = '   ===>  Bonne réponse  <===';
+                    var output = document.querySelector('#outputvote').style.color = 'rgb(0, 255, 0)';
                 } else if (input == 'non') {
-                document.body.style.backgroundColor = 'rgb(255, 0, 0)'
+                document.body.style.backgroundColor = 'rgb(200, 0, 0)'
+                    var output = document.querySelector('#outputvote').textContent = '   ===>  Mauvaise réponse  <===';
+                    var output = document.querySelector('#outputvote').style.color = 'rgb(255, 0, 0)';
+                } else if (input == '') {
+                document.body.style.backgroundColor = 'rgb(0, 0, 255)'
+                    var output = document.querySelector('#outputvote').textContent = '   ===>  Veuillez écrire votre réponse  <===';
+                    var output = document.querySelector('#outputvote').style.color = 'rgb(0, 0, 0)';
+                } else {
+                document.body.style.backgroundColor = 'rgb(0, 0, 255)'
+                    var output = document.querySelector('#outputvote').textContent = '   ===>  Cette réponse ne peut pas être acceptée  <===';
+                    var output = document.querySelector('#outputvote').style.color = 'rgb(0, 0, 0)';
                 }
             }
         </script>
@@ -125,5 +162,3 @@
     <div class="baspage"> 
     </div>
 
-
-    <!-- lien vers databus : http://busparisiens.fr/DataBus/tel/DB_ligne.php -->
