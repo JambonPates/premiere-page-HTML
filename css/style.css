@@ -3,7 +3,7 @@
 }
 /* définition du fond de la page */
 body{
-    background-color: #999999;
+    background-color: rgb(153, 153, 153);
     background-size: 100%;
     margin: 0 auto;
 }
@@ -34,10 +34,10 @@ header.principal nav{
     background-size: 100%;
 }
 
-header{
+header.principal{
     display: flex;
     align-items: center;
-    background-color: #03ad94;
+    background-color: #00aa91;
 }
 
 nav.menu-nav ul li{
@@ -66,16 +66,16 @@ div.ligne{
     height: 10px;
     background-color: #03ad94;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
-    margin-bottom: 40px;
 }
 
 /* zone pour le vote du public */
 div.vote{
     background-color: whitesmoke;
-    margin-left: 75px;
-    margin-right: 75px;
-    height: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 170px;
     border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
     display: flexbox;
 }
 div.vote header{
@@ -90,7 +90,8 @@ div.vote form{
     display: flex;
     align-items: center;
     margin: 10px;
-    padding-left: 400px;
+    font-size: 25px;
+    padding-left: 250px;
     font-size: 30px;
     text-align: center;
 }
@@ -101,8 +102,58 @@ div.vote p{
     text-align: center;
 }
 
+/* choix mode clair ou sombre */
+
+div.choixmode{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 118px;
+    background-color: whitesmoke;
+    text-align: center;
+    text-justify: auto;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
+}
+
+header.choixmode{
+    height: 36px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #0a0082;
+    text-align: center;
+    text-justify: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+header.choixmode p{
+    color: whitesmoke;
+    text-decoration: whitesmoke;
+    font-size: 30px;
+}
+
+div.boutonmodes{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: inline-block;
+}
+
+form.un{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(61, 61, 61);
+}
+
+form.deux{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+    border-radius: 0 0 10px 10px;
+}
+
 /* bloc acces liste bus */
-div.bus{
+
+div.dansbus{
     height: 200px;
     padding: 60px;
     padding-top: 40px;
@@ -118,7 +169,7 @@ header.dansbus{
 }
 
 header.dansbus p{
-    color: blanchedalmond;
+    color: whitesmoke;
     text-decoration: whitesmoke;
     font-size: 30px;
 }
@@ -126,7 +177,7 @@ header.dansbus p{
 div.prezbus{
     display: inline-block;
     display: flex;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
     text-align: center;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
@@ -143,7 +194,7 @@ div.imgbus{
 div.prezbusauv{
     display: inline-block;
     display: flex;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
     text-align: center;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
@@ -152,8 +203,8 @@ div.prezbusauv{
 div.imgbusauv{
     height: 164px;
     width: 292px;
-    /* background-image: url(https://media.lesechos.com/api/v1/images/view/5c2de5338fe56f64c00a36ed/1280x720-webp/0203523070942-web.webp); */
-    background-size: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/14/Ancien_Bus_Paris.JPG);
+    background-size: 150%;
     border-radius: 0 0 0 10px;
 }
 
@@ -186,7 +237,7 @@ header.danscentre{
 }
 
 header.danscentre p{
-    color: blanchedalmond;
+    color: whitesmoke;
     text-decoration: whitesmoke;
     font-size: 30px;
 }
@@ -194,7 +245,7 @@ header.danscentre p{
 div.prezcentre{
     display: inline-block;
     display: flex;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
     border-radius: 0 0 10px 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.50);
 }
@@ -238,9 +289,8 @@ header.nombus{
     height: 40px;
     text-align: center;
     background-color: #0a0082;
-    font-size: 30px;
+    font-size: 35px;
     border-radius: 15px 15px 0 0;
-    display: flex;
 }
 
 header.nombus p{
@@ -315,7 +365,7 @@ div.storibus{
     border-radius: 0 0 10px 10px;
     height: 400px;
     color: black;
-    background-color: blanchedalmond;
+    background-color: whitesmoke;
 }
 
 /* présentation photo */
@@ -334,7 +384,7 @@ div.photobus{
 /* bas de page */
 
 div.baspage{
-    margin-top: 25px;
+    margin-top: 50px;
     height: 10px;
     background-color: #03ad94;
 }

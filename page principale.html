@@ -4,11 +4,12 @@
     <title>Bus RATP</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css\style.css">
+    <script src="javascript\script.js"></script>
 </head>
 <body id="page">
     <div class="ban">
-        <header class="principal">
-            <img src="images\RATPvert.jpg">
+        <header class="principal" id="couleurBan">
+            <a href="https://www.ratp.fr/"><img src="images\RATPvert.jpg"></a>
             <nav class="menu-nav">
                 <ul>
                     <li>
@@ -34,13 +35,16 @@
                 </ul>
             </nav>
     </div>
-    <div class="ligne">
+    <div class="ligne" id="ligne">
     </div>
+
+    
+
 
     <div id="bouton1" class="bus"
     onmouseenter="mouse_on_button(document.querySelector('#bouton1'))"
     onmouseleave="mouse_leave_button(document.querySelector('#bouton1'))">
-        <header class="dansbus">
+        <header class="dansbus" id="pteban">
             <p>
                 Liste des véhicules
             </p>
@@ -64,18 +68,7 @@
     <div id=bouton2 class="centre"
     onmouseenter="mouse_on_button(document.querySelector('#bouton2'))"
     onmouseleave="mouse_leave_button(document.querySelector('#bouton2'))">
-    <script>
-        function mouse_on_button(element) {
-            element.style.height = '220px';
-            element.style.padding = '45px';
-        }
-        function mouse_leave_button(element) {
-            element.style.height = '200px';
-            element.style.padding = '60px';
-        }
-
-    </script>
-        <header class="dansbus">
+        <header class="dansbus" id="pteban2">
             <p>
                 Liste des centres-bus
             </p>
@@ -98,13 +91,13 @@
     <div id="bouton3" class="bus"
     onmouseenter="mouse_on_button(document.querySelector('#bouton3'))"
     onmouseleave="mouse_leave_button(document.querySelector('#bouton3'))">
-        <header class="dansbus">
+        <header class="dansbus" id="pteban3">
             <p>
                 véhicules sauvegardés
             </p>
         </header>
-        <div class="prezbus">
-            <a href="listevéhicules.html">
+        <div class="prezbus" >
+            <a href="listeSauvegarde.html">
             <div class="imgbusauv">
             </div>
                 
@@ -118,47 +111,43 @@
         </div>  
     </div>
 
-    <div class="vote" id='test'>
-        <header class="dansbus">
+    <div class="vote">
+        <header class="dansbus" id='pteban4'>
             <p>
                 Aimez vous cette page internet?
             </p>
         </header>
 
         <p class="levote"> 
-            <FORM id="zonevote">
-                Oui ou Non ?
-                <INPUT TYPE="int" id="inputvote"> <br>
-                <input type="button" id="bouton" value="Valider" onclick="mafonction()"><br>   
+            <form id="zonevote">
+                oui ou non ?   
+                <input TYPE="int" id="inputvote"> <br>
+                <input type="button" id="bouton" value="Valider" onclick="vote()"><br>   
                 
-            </FORM>
+            </form>
             <p id="outputvote" ></p>
         </p>
-           
-        <script>
-            function mafonction (){
-                var input = document.querySelector('#inputvote').value;
-                if (input == 'oui') {
-                    document.body.style.backgroundColor = 'rgb(0, 150, 0)';
-                    var output = document.querySelector('#outputvote').textContent = '   ===>  Bonne réponse  <===';
-                    var output = document.querySelector('#outputvote').style.color = 'rgb(0, 255, 0)';
-                } else if (input == 'non') {
-                document.body.style.backgroundColor = 'rgb(200, 0, 0)'
-                    var output = document.querySelector('#outputvote').textContent = '   ===>  Mauvaise réponse  <===';
-                    var output = document.querySelector('#outputvote').style.color = 'rgb(255, 0, 0)';
-                } else if (input == '') {
-                document.body.style.backgroundColor = 'rgb(0, 0, 255)'
-                    var output = document.querySelector('#outputvote').textContent = '   ===>  Veuillez écrire votre réponse  <===';
-                    var output = document.querySelector('#outputvote').style.color = 'rgb(0, 0, 0)';
-                } else {
-                document.body.style.backgroundColor = 'rgb(0, 0, 255)'
-                    var output = document.querySelector('#outputvote').textContent = '   ===>  Cette réponse ne peut pas être acceptée  <===';
-                    var output = document.querySelector('#outputvote').style.color = 'rgb(0, 0, 0)';
-                }
-            }
-        </script>
     </div>
 
-    <div class="baspage"> 
+    
+    <div class="choixmode">
+        <header class="choixmode" id="pteban5">
+            <p>
+                Choisissez votre Mode
+            </p>
+        </header> 
+        <div class="boutonsmodes">
+            <form class="un">
+                <input type="button" id="inputSombre" value="Mode Sombre" onclick="modeSombre()"><br>
+                </form>
+                <form class="deux">
+                <input type="button" id="inputClair" value="Mode Clair" onclick="modeClair()"><br>
+            </form>
+        </div>
     </div>
+   
+    <div class="baspage" id="basPage"> 
+    </div>
+
+</body>
 
