@@ -1,0 +1,14 @@
+div.suppr{
+    margin-top: 30px;
+    padding-bottom: -20px;
+    text-align: center;
+    padding-left: 180px;
+}
+
+div.suppr p{
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+    color: #0a0082;
+    font-weight: 700;
+}

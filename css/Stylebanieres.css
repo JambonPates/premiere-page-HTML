@@ -7,6 +7,13 @@ div.banAgora{
     background-position-y: 600px;
 }
 
+div.banAgora img{
+    width: 150px;
+    background-size: cover;
+    background-size: 100%;
+    padding-top: 0px;
+    padding-right: 50px;
+}
 
 div.ban317{
     position: relative;
@@ -17,11 +24,20 @@ div.ban317{
     background-position-y: 650px;
 }
 
+div.ban317 img{
+    width: 150px;
+    background-size: cover;
+    background-size: 100%;
+    padding-top: 0px;
+    padding-right: 50px;
+}
+
 div.ban img{
     width: 150px;
     background-size: cover;
     background-size: 100%;
 }
+
 
 
 /* agora line :https://4.bp.blogspot.com/-YCke5prAENw/W1o8sAafEJI/AAAAAAABtQg/BgYUOJiBO1QDyMerP-wVcD1LP2JW3RM0gCLcBGAs/s1600/IMG_8042.jpg */
