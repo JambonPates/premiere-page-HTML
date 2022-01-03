@@ -12,16 +12,25 @@ div.ban{
     position: relative;
     height: 450px;
     margin: 0px;
-    background: url(https://i.ytimg.com/vi/hgQAwfIipGM/maxresdefault.jpg);
+    background: url(https://images.midilibre.fr/api/v1/images/view/5ccef8113e454607ef189765/hd/image.jpg?v=1);
     background-size: 100%;
-    background-position-y: 500px;
 }
 
-img{
+div.ban img{
     width: 150px;
     background-size: cover;
     background-size: 100%;
     width: 150px;
+    padding-top: 0px;
+    padding-right: 50px;
+}
+
+div.ban img.imgbanp{
+    width: 150px;
+    background-size: cover;
+    background-size: 100%;
+    width: 150px;
+    margin-top: 3px;
     padding-top: 0px;
     padding-right: 50px;
 }
@@ -381,6 +390,25 @@ div.photobus{
     text-align: center;
     display: inline-block;
 }
+
+div.photobus div{
+    display: inline-block;
+}
+
+div.photobus img{
+    padding: 0px;
+    margin: 0px;
+    height: 325px;
+    width: 572px;
+}
+
+div.grandimg img{
+    padding: 0px;
+    margin: 0px;
+    height: 650px;
+    width: 1148px;
+}
+
 /* bas de page */
 
 div.baspage{

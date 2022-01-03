@@ -1,6 +1,6 @@
 function mouse_on_button(element) {
-    element.style.height = '220px';
-    element.style.padding = '45px';
+    element.style.height = '210px';
+    element.style.padding = '50px';
 }
 function mouse_leave_button(element) {
     element.style.height = '200px';
@@ -23,7 +23,7 @@ function vote (){
         var output = document.querySelector('#outputvote').style.color = 'rgb(0, 0, 0)';
     } else {
     document.body.style.backgroundColor = 'rgb(0, 0, 255)'
-        var output = document.querySelector('#outputvote').textContent = '   ===>  Cette réponse ne peut pas être acceptée  <===';
+        var output = document.querySelector('#outputvote').textContent = '   ===>  Cette réponse n\'est pas acceptée  <===';
         var output = document.querySelector('#outputvote').style.color = 'rgb(0, 0, 0)';
     }
 }
