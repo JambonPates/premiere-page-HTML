@@ -12,8 +12,9 @@ div.ban{
     position: relative;
     height: 450px;
     margin: 0px;
-    background: url(https://images.midilibre.fr/api/v1/images/view/5ccef8113e454607ef189765/hd/image.jpg?v=1);
+    background: url(https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F11.2F29e3a766-723b-43a4-bd8f-4700cfbda5f0.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgUFIxODAuMi9XaWtpbWVkaWEgQ29tbW9ucyAvIENBUElUQUw%3D/ligne-par-ligne-le-trafic-des-bus-ratp-ce-jeudi-12-decembre-en-ile-de-france-1357495.jpg);
     background-size: 100%;
+    background-position-y: 530px;
 }
 
 div.ban img{

@@ -1,3 +1,4 @@
+// animation du bouton au passage de la souris
 function mouse_on_button(element) {
     element.style.height = '210px';
     element.style.padding = '50px';
@@ -7,6 +8,7 @@ function mouse_leave_button(element) {
     element.style.padding = '60px';
 }
 
+// pour les réponses du vote
 function vote (){
     var input = document.querySelector('#inputvote').value;
     if (input == 'oui') {
@@ -28,6 +30,7 @@ function vote (){
     }
 }
 
+// fait fonctionner le mode sombre 
 function modeSombre(){
     var color = document.body.style.backgroundColor;
     if (color = 'rgb(153, 153, 153)') {
@@ -40,10 +43,10 @@ function modeSombre(){
         var output = document.querySelector('#pteban3').style.backgroundColor = 'rgb(0, 0, 80)';
         var output = document.querySelector('#pteban4').style.backgroundColor = 'rgb(0, 0, 80)'
         var output = document.querySelector('#pteban5').style.backgroundColor = 'rgb(0, 0, 80)';
-        // var output = document.querySelector('#ban').style.background = 
     }
    
 }
+// retour au mode clair
 function modeClair(){
     var color = document.body.style.backgroundColor;
     if (color = 'rgb(0, 0, 0)') {
