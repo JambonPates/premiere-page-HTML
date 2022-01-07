@@ -12,9 +12,9 @@ div.ban{
     position: relative;
     height: 450px;
     margin: 0px;
-    background: url(https://cap.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2019.2F12.2F11.2F29e3a766-723b-43a4-bd8f-4700cfbda5f0.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgUFIxODAuMi9XaWtpbWVkaWEgQ29tbW9ucyAvIENBUElUQUw%3D/ligne-par-ligne-le-trafic-des-bus-ratp-ce-jeudi-12-decembre-en-ile-de-france-1357495.jpg);
+    background: url(https://www.francetvinfo.fr/pictures/UNOZgHkTW9ioGYVdUJGI2utsk1U/752x423/2018/11/08/phpxDsD2R.jpg);
     background-size: 100%;
-    background-position-y: 530px;
+    background-position-y: 700px;
 }
 
 div.ban img{
@@ -300,6 +300,9 @@ header.nombus{
     background-color: #0a0082;
     font-size: 35px;
     border-radius: 15px 15px 0 0;
+    padding-right: 100px;
+    padding-left: 100px;
+    color: blanchedalmond;
 }
 
 header.nombus p{
@@ -355,6 +358,8 @@ tr ,td , th{
 
 div.petitehistoire{
     padding: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-right: 100px;
     padding-left: 100px;
     width: 1148px;
@@ -373,6 +378,18 @@ div.storibus{
     font-size: 25px;
     border-radius: 0 0 10px 10px;
     height: 400px;
+    color: black;
+    background-color: whitesmoke;
+}
+
+div.storibussauv{
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-justify: auto;
+    font-size: 25px;
+    border-radius: 0 0 10px 10px;
+    height: 300px;
     color: black;
     background-color: whitesmoke;
 }
@@ -409,10 +426,33 @@ div.grandimg img{
     width: 1148px;
 }
 
+/* page véhicules sauvegardés */
+
+a.pasdecolien{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+div.lienfiche{
+    padding-top: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+div.lienfiche p{
+    background-color: #ff2a2a;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 3px 15px black;
+}
+
 /* bas de page */
 
 div.baspage{
-    margin-top: 50px;
+    margin-top: 70px;
     height: 10px;
     background-color: #03ad94;
 }

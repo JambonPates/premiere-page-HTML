@@ -1,4 +1,5 @@
 /* gère les banières des différentes pages en fonction du modèle de bus */
+/* Agora S V2 */
 div.banAgora{
     position: relative;
     height: 450px;
@@ -16,6 +17,7 @@ div.banAgora img{
     padding-right: 50px;
 }
 
+/* GX317 */
 div.ban317{
     position: relative;
     height: 450px;
@@ -33,12 +35,42 @@ div.ban317 img{
     padding-right: 50px;
 }
 
-div.ban img{
+
+/* page liste des bus sauvegardés */
+div.bansauvegarde{
+    position: relative;
+    height: 450px;
+    margin: 0px;
+    background: url(https://www.laviedurail.com/rp/wp-content/uploads/sites/3/2018/07/80C-44-Ph-E-A-Muse%CC%81e-transports.jpg);
+    background-size: 100%;
+    background-position-y: 530px;
+}
+
+div.bansauvegarde img{
     width: 150px;
     background-size: cover;
     background-size: 100%;
+    padding-top: 0px;
+    padding-right: 50px;
 }
 
+/* Agora V0 sauvegardé 2073 */
+div.ban2073{
+    position: relative;
+    height: 450px;
+    margin: 0px;
+    background: url(https://live.staticflickr.com/65535/48771070386_9d36dde3df_b.jpg);
+    background-size: 100%;
+    background-position-y: 550px;
+}
+
+div.ban2073 img{
+    width: 150px;
+    background-size: cover;
+    background-size: 100%;
+    padding-top: 0px;
+    padding-right: 50px;
+}
 
 
 /* agora line :https://4.bp.blogspot.com/-YCke5prAENw/W1o8sAafEJI/AAAAAAABtQg/BgYUOJiBO1QDyMerP-wVcD1LP2JW3RM0gCLcBGAs/s1600/IMG_8042.jpg */
