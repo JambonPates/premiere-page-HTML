@@ -35,6 +35,23 @@ div.ban317 img{
     padding-right: 50px;
 }
 
+/* Citaro C1 */
+div.banCC1{
+    position: relative;
+    height: 450px;
+    margin: 0px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Mercedes_Citaro_RATP_-_4317_-_Ligne_471.png/2560px-Mercedes_Citaro_RATP_-_4317_-_Ligne_471.png);
+    background-size: 100%;
+    background-position-y: 600px;
+}
+
+div.banCC1 img{
+    width: 150px;
+    background-size: cover;
+    background-size: 100%;
+    padding-top: 0px;
+    padding-right: 50px;
+}
 
 /* page liste des bus sauvegardés */
 div.bansauvegarde{
